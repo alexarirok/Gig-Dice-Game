@@ -1,3 +1,4 @@
+// Business logic
 function Player(userName) {
   this.userName = userName;
   this.score = 0;
@@ -8,7 +9,6 @@ function Turn(player) {
   this.randNumber = 0;
   this.player = player;
 };
-
 
 Turn.prototype.diceRoller = function(player1, player2) {
   var randNumber = Math.floor(Math.random() * 6) + 1;
@@ -40,7 +40,7 @@ Turn.prototype.endTurn = function(player1, player2) {
       $("#player1").toggleClass("active");
   };
 };
-
+// user logic
 $(document).ready(function() {
   var player1 = new Player("Player 1");
   var player2 = new Player("Player 2");
@@ -51,7 +51,7 @@ $(document).ready(function() {
 
   $("#player1").hide().show("slow");
   $("#player2").hide().show("slow");
-  $("h1").hide().show("slow");
+  $("h1").hide().show("fast");
   $("p").hide().show("slow");
 
   $("#roll-total").text(total);
@@ -73,10 +73,10 @@ $(document).ready(function() {
     if ((currentTurn.total + currentTurn.player.score) >= 100) {
       if (currentTurn.player === player1) {
           $('#player1-score').text(currentTurn.total + currentTurn.player.score);
-          alert("You are the winner!");
+          alert("Congratulations!! 'You are the winner!'");
       } else if (currentTurn.player === player2) {
           $('#player2-score').text(currentTurn.total + currentTurn.player.score)
-          alert("You are the winner!");
+          alert("Congratulations!! 'You are the winner!'");
       };
     };
   });

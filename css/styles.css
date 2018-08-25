@@ -114,7 +114,6 @@ body {
     background: #66ff99;
     border: #bfff75;
     margin-left: -0px;
-    float: left;
 }
 
 #end-turn .btn {
@@ -122,5 +121,4 @@ body {
     background: #66ff99;
     border: #bfff75;
     margin-left: -0px;
-    float: right;
 }
