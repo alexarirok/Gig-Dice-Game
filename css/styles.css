@@ -122,3 +122,10 @@ body {
     border: #bfff75;
     margin-left: -0px;
 }
+#main-footer {
+  color: black;
+  text-align: center;
+  padding: 1px;
+  margin-top: 80px;
+  margin-bottom: 5px;
+}
