@@ -35,7 +35,7 @@ Created and deployed by Alex Korir 25th August, 2018.
 5.css;
 
 #### link to live site on GitHub Pages
- Check it out at: http://alexarirok.github.io/Gig-Dice-Dice
+ Check it out at: https://alexarirok.github.io/Gig-Dice-Game/
  
  #### contact information
  you can reach the author at akorir233@gmail.com or call +254706325145
