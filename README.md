@@ -40,8 +40,9 @@ Created and deployed by Alex Korir 25th August, 2018.
  #### contact information
  you can reach the author at akorir233@gmail.com or call +254706325145
  
-##### MIT License
-Copyright (c) 2018 alexarirok
+##### MIT License 
+     Copyright (c) 2018 alexarirok
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
